@@ -5,9 +5,11 @@
     <h3>You can see your answers</h3>
     <button class="btn--outline">Reset</button>
   </section>
-  <section class="quiz_questions-list">
-    <app-question></app-question>
-  </section>
+  <div *ngFor="let question of questions">
+    <section class="quiz_questions-list" *ngIf="question.categoryId == categoryId">
+      <app-question [question]="question"></app-question>
+    </section>
+  </div>
   <div class="quiz_validation">
     <button (click)="goToResultPage()" class="btn">Show score</button>
   </div>
