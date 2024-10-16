@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let category of categories">
+    <button (click)="navigateCategory(category)">{{ category.categoryName }}</button>
+  </li>
+</ul>

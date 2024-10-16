@@ -1,0 +1,161 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Code"
+    },
+    {
+      "id": 2,
+      "categoryName": "Sport"
+    },
+    {
+      "id": 3,
+      "categoryName": "Science"
+    },
+    {
+      "id": 4,
+      "categoryName": "Musique"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "questionLabel": "Qu'est-ce qu'une fermeture (closure) en JavaScript ?"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "questionLabel": "Expliquez le concept des promesses en JavaScript."
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "questionLabel": "Qui a remporté la Coupe du Monde FIFA en 2018 ?"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "questionLabel": "Quelle est la longueur d'une piscine olympique ?"
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "questionLabel": "Quelle est la première loi de Newton ?"
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "questionLabel": "Quel est le symbole chimique de l'eau ?"
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "questionLabel": "Qui est le compositeur des 'Quatre Saisons' ?"
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "questionLabel": "Quel est le registre vocal le plus élevé en musique ?"
+    }
+  ],
+  "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "Une fonction qui conserve l'accès à sa portée lexicale.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "Une méthode pour créer des objets en JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Les promesses sont des objets utilisés pour les opérations asynchrones.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Les promesses sont des méthodes pour gérer des chaînes de caractères.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "France",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "Brésil",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "50 mètres",
+      "isCorrect": true
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "25 mètres",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "Un objet reste au repos ou en mouvement uniforme à moins qu'une force n'agisse sur lui.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "Toute action a une réaction égale et opposée.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "H2O",
+      "isCorrect": true
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "CO2",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Antonio Vivaldi",
+      "isCorrect": true
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Ludwig van Beethoven",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Soprano",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Alto",
+      "isCorrect": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    },
+    {
+      "id": 3,
+      "username": "test",
+      "password": "test"
+    }
+  ]
+}
