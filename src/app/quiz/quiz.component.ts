@@ -11,6 +11,7 @@ export class QuizComponent implements OnInit {
   isQuizFinished = this.quizService.isQuizFinished;
   playerName = '';
   categoryId = '';
+  categoryName = '';
   questions: any[] = [];
 
   constructor(
@@ -20,11 +21,17 @@ export class QuizComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    console.log('ngOnInit du QuizComponent exécuté');
     this.route.params.subscribe(params => {
+      console.log('Paramètres de la route :', params);
       this.quizService.playerName = params['playerName'];
-      this.categoryId = params['categoryId'];
+      this.categoryId = params['categoryID'];
+      this.categoryName = params['categoryName'];
+      console.log('Category ID récupéré :', this.categoryId);
+      console.log('Category Name récupéré :', this.categoryName);
+
+      this.loadQuestions(this.categoryId);
     });
-    this.loadQuestions(this.categoryId);
   }
 
   loadQuestions(categoryId: string): void {

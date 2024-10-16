@@ -61,6 +61,6 @@ export class QuizService {
   }
 
   getQuestionsForCategory(categoryId: string): Observable<any> {
-    return this.http.get(`http://localhost:3000/questions?category=${categoryId}`);
+    return this.http.get(`http://localhost:3000/questions?categoryId=${categoryId}`);
   }
 }

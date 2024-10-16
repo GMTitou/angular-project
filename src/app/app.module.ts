@@ -28,7 +28,7 @@ import {CategoriesComponent} from "./categories/categories.component";
     AnswerComponent,
     LoginComponent,
     RegisterComponent,
-    CategoriesComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,

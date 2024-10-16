@@ -29,6 +29,6 @@ export class CategoriesComponent implements OnInit {
       console.error('User or categoryName is undefined');
       return;
     }
-    this.router.navigate(['/quiz', this.user, category.categoryName]);
+    this.router.navigate(['/quiz', this.user, category.categoryName, category.id]);
   }
 }
